@@ -1,0 +1,79 @@
+body{
+    display: block;
+    margin: 8px;
+}
+.container{
+    background: linear-gradient(to top, #ffa8b8 40%, #d988bc 60%);
+    box-shadow: rgb(37 39 89/ 8%,)v0px 8px 8px 0;
+    border-radius: 10px;
+    display: block;
+    color: white;
+    width: 50%;
+    padding: 30px;
+    margin: 30px 300px 30px auto;
+}
+
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 30px 30px 30px;
+    display: block;
+    font-size: 2em;
+  
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+hr{
+    margin: 8px 30px 8px 30px;
+    color: #ffffff;
+}
+img{
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    border-radius: 4px;
+}
+p{
+    line-height: 1.5;
+    font-size: 24px;
+    display: block;
+    margin: 30px 30px 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 30px 30px 30px;
+}
+
+button{
+display: block;
+margin: 30px auto;
+padding: 10px 20px;
+font-size: 42px;
+text-transform: uppercase;
+background: #000000;
+color: white;
+border-radius: 4px;
+border: none;
+transition: opacity 150ms ease;
+cursor: pointer;
+opacity: 1;
+box-shadow: 0 1px 20px rgb(0 0 0 /50%);
+
+}
+button:hover{
+    opacity: 0.9;
+}
